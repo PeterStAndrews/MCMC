@@ -27,7 +27,7 @@ import numpy as np
 def Parallel_Tempering(p, step_size, n, e, x0, y0):
     '''samples the target distribution, p, using len(step_size) 
     Markov chains that take n samples before proposing an exchange
-    a total of e times
+    a total of e times.
     
     :param::'p': the target distribution:
     :param::'step_size': array of Q sigmas
@@ -91,7 +91,3 @@ def Parallel_Tempering(p, step_size, n, e, x0, y0):
                 Y0[chain+1] = y1
                 
     return x, y
-
-def ptarget(x, y):
-    '''the distribution we wish to sample'''
-    return NotImplementedError
