@@ -19,7 +19,13 @@
 # You should have received a copy of the GNU General Public License
 # along with `MCMC`. If not, see <http://www.gnu.org/licenses/gpl.html>.
 
+''' 
+`MCMC` is an educational library that contains several Markov chain Monte Carlo (MCMC) sampling and optimisation algorithms. Distribution sampling is
+ubiquitous throughout data science. In its simplest form, sampling a distribution builds a picture of the concentration of measure  over the 
+parameter space. MCMC techniques include a wide variety of methods; each however, will contain memoryless 
+updates and the use of random numbers to decide which region of a distribution to explore next. 
 
+'''
 from .metropolis_hastings import Metropolis_Hastings
 from .simulated_annealing import Simulated_Annealing
 from .parallel_tempering import Parallel_Tempering
