@@ -58,7 +58,3 @@ def Simulated_Annealing(p, n, x0, y0, step):
         anneal(step_size)
 
     return points
-
-def ptarget(x, y):
-	'''the distribution we wish to sample'''
-    return NotImplementedError
