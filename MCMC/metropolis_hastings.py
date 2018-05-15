@@ -43,7 +43,3 @@ def Metropolis_Hastings(p, n, x0, y0, step):
         points[i] = np.array([x, y])
 
     return points
-
-def ptarget(x, y):
-    '''the distribution we wish to sample'''
-    return NotImplementedError
