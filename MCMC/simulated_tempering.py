@@ -72,7 +72,3 @@ def simulated_tempering(p, step_sizes, n, u, x0, y0):
     y_array = np.array(y_list)
     
     return x_array, y_array, update_record
-
-def ptarget(x, y):
-	'''the distribution we wish to sample'''
-    return NotImplementedError
