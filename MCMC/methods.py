@@ -48,6 +48,8 @@ def plot_dist(x,y):
     # set axis labels
     g.set_axis_labels("$X$", "$Y$")
     
+    plt.show()
+    
 def traceplot(x):
     '''traceplot in the x-dimension with the cumulative mean (r)
     and the actual mean (--)'''
